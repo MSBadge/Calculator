@@ -53,8 +53,7 @@ button {
     box-shadow: 0 4px 6px rgba(130, 197, 48, 0.6);
 }
 .operators {
-    background-color: goldenrod;
-    color: black ;
+    color: greenyellow ;
     box-shadow: 0 4px 6px rgba(229, 229, 229, 0.6);
 
 }

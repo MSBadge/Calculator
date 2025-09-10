@@ -14,8 +14,10 @@ arr.forEach(button => {
         } else if (e.target.innerHTML == 'DEL') {
             string = string.slice(0, -1);
             input.value = string;
-        }
-        else{
+        } else if (e.target.innerHTML == '%') {
+            string = string / 100;
+            input.value = string;
+        } else{
             string += e.target.innerHTML;
             input.value = string;
         }
